@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UserDetails</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_age">Enter your Age</string>
+    <string name="enter_your_hobby">Enter your Hobby</string>
+    <string name="save">Save</string>
+    <string name="enter_your_details">ENTER USER DETAILS</string>
+    <string name="enter_your_phone_no">Enter your Phone No.</string>
+    <string name="view_users">  View Users  </string>
+</resources>

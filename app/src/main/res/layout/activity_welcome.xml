@@ -1,0 +1,97 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/enter_your_details"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+
+        />
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_marginHorizontal="40dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_your_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtage"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_your_age"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edtphone"
+        android:layout_marginHorizontal="40dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_your_phone_no"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edthobby"
+        android:layout_marginHorizontal="40dp"
+        android:inputType="textAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_your_hobby"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edtbtn"
+        android:textColor="@color/white"
+        android:background="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:hint="@string/save"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edtshow"
+        android:textColor="@color/white"
+        android:background="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:hint="@string/view_users"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
